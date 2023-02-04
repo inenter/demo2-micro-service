@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "spring.cloud.nacos.discovery.username",
+      "type": "java.lang.String",
+      "description": "Description for spring.cloud.nacos.discovery.username."
+  }
+] }

@@ -1,0 +1,22 @@
+server:
+  port: 9002
+
+spring:
+  # 服务名称
+  application:
+    name: order-service
+    # 注册中心nacos的地址
+  cloud:
+    nacos:
+      server-addr: 127.0.0.1:8848
+      discovery:
+        username: nacos
+        password: nacos
+        namespace: public
+
+rocketmq:
+  name-server: 127.0.0.1:9876
+  producer:
+    group: producer-demo1
+#  consumer:
+#    group: consumer-demo1
